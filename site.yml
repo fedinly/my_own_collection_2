@@ -1,0 +1,14 @@
+- name: Create file
+  collections:
+    - my_own_namespace.yandex_cloud_elk
+  tags: Create_file
+  hosts: create_file
+  # pre_tasks:
+  #   - name: Install Python
+  #     become: true
+  #     ansible.builtin.dnf:
+  #       name: python3.12
+  #       state: present
+
+  roles: 
+    - create_file

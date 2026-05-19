@@ -1,0 +1,5 @@
+---
+# defaults file for create_file
+path:    /tmp/testing.txt
+content: 'Testing 3 phase'
+state:   new
